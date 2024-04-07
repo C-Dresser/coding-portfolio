@@ -1,5 +1,7 @@
+
 import { useState } from 'react';
 import './style.css';
+import Header from '../components/Header';
 
 styles ={
     form: {
@@ -9,8 +11,8 @@ styles ={
         padding: '10px',
         display: block,
     },
-
 }
+
 function Form() {
   // Here we set two state variables for firstName and lastName using `useState`
   const [firstName, setFirstName] = useState('');
