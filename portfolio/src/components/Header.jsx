@@ -14,9 +14,10 @@ const styles = {
 };
 
 function Header({ pageTitle }) {
+  const currentPage = window.location.pathname.split('/').pop();
     return (
       <header style={styles.header}>
-        <h1>Home</h1>
+        <h1>{currentPage}</h1>
       </header>
     );
   }

@@ -21,7 +21,7 @@ export default function Nav() {
         }}
       >
         <div style={linkStyle}>
-          <a href="/pages/About.jsx">About Me</a>
+          <a href="/pages/About">About Me</a>
         </div>
         <div style={linkStyle}>
           <a href="/pages/Portfolio">Portfolio</a>
