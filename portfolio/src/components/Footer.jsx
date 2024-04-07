@@ -11,12 +11,16 @@ const styles = {
       bottom: 0,
       width: '100%',
     },
+    text: {
+      fontFamily: 'lucida console thin',
+      color: '#6272a4',
+    },
   };
 
 function Footer() {
     return (
         <footer style={styles.footer}>
-            <p>This React application was created by Curtis Dresser</p>
+            <p style={styles.text}>This React application was created by Curtis Dresser</p>
         </footer>
     );
 }
