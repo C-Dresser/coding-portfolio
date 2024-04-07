@@ -17,7 +17,7 @@ const styles = {
 function Header() {
     return (
       <header style={styles.header}>
-        <h1>curtisCodes</h1>
+        <h1>curtisDresser</h1>
       </header>
     );
   }
