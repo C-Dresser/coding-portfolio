@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   header: {
-    backgroundColor: 'black',
+    backgroundColor: '#282a36' ,
     color: 'white',
     textAlign: 'center',
     padding: '10px',
@@ -10,14 +10,14 @@ const styles = {
     top: 0,
     left: 0,
     width: '100%',
+    fontFamily: 'lucida console thin',
   },
 };
 
-function Header({ pageTitle }) {
-  const currentPage = window.location.pathname.split('/').pop();
+function Header() {
     return (
       <header style={styles.header}>
-        <h1>{currentPage}</h1>
+        <h1>curtisCodes</h1>
       </header>
     );
   }
