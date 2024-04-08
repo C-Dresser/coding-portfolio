@@ -1,10 +1,23 @@
-# Coding-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ![LicenseBadge](https://img.shields.io/badge/License-MIT-brightgreen)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
+  # Coding-Portfolio
+  
+  
+  ## Table of Contents
+  - [Description](#description)
+  - [License](#license)
+  - [Questions](#questions)
+    
+  
+  ## Description
+  This is a living portfolio of my coding work.
+  
+  ## License
+  This app is using the MIT license, linked here:
+  [License Link](https://opensource.org/licenses/MIT)
+  
+  ## Questions
+  If you have any questions, they can be directed here:
+  [Profile Link](https://github.com/C-Dresser) or email me at cdcelticsfan@gmail.com.
+    
