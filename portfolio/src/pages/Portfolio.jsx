@@ -15,7 +15,7 @@ export default function Portfolio() {
         <div style={styles.container}>
           <h2>Portfolio</h2>
           <p style={styles.innerContainer}>
-          testtest
+          Here are some of the projects I have worked on:
         </p>
       </div>
     );
