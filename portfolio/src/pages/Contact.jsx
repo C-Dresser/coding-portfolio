@@ -94,6 +94,20 @@ export default function ContactForm() {
       borderLeft: '1px solid #efefef',
       borderColor: '#6272a4',
     },
+    form: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '10px',
+      background: '#24242e',
+      padding: '20px',
+      width: '100%',
+      maxWidth: '100%',
+      alignItems: 'flex-start',
+    },
+    text: {
+      fontFamily: 'lucida console thin',
+      color: '#6272a4',
+    }
   };
 
   return (
@@ -102,9 +116,9 @@ export default function ContactForm() {
       <p style={styles.innerContainer}>
         Fill out the form below to get in touch with me.
       </p>
-      <form onSubmit={handleSubmit}>
+      <form style={styles.form} onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label style={styles.text} htmlFor="name">Name:</label>
           <input
             type="text"
             id="name"
@@ -117,7 +131,7 @@ export default function ContactForm() {
           {errors.name && <p>{errors.name}</p>}
         </div>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label style={styles.text} htmlFor="email">Email:</label>
           <input
             type="email"
             id="email"
@@ -130,7 +144,7 @@ export default function ContactForm() {
           {errors.email && <p>{errors.email}</p>}
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label style={styles.text} htmlFor="message">Message:</label>
           <textarea
             id="message"
             name="message"
