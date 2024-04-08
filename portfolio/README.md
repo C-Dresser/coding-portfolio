@@ -11,6 +11,3 @@ Currently, two official plugins are available:
 
 WHEN I am presented with the Portfolio section
 THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
-
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)

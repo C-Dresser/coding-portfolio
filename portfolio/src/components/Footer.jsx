@@ -14,15 +14,21 @@ const styles = {
     text: {
       fontFamily: 'lucida console thin',
       color: '#6272a4',
+      display: 'flex',
+      justifyContent: 'space-around',
     },
   };
 
-function Footer() {
+  function Footer() {
     return (
-        <footer style={styles.footer}>
-            <p style={styles.text}>This React application was created by Curtis Dresser</p>
-        </footer>
+      <footer style={styles.footer}>
+        <div style={styles.text}>
+          <a href="https://github.com/C-Dresser" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/curtis-dresser-16a792302/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.facebook.com/curtis.dresser/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+      </footer>
     );
-}
-
-export default Footer;
+  }
+  
+  export default Footer;
