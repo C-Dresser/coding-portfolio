@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../components/project.jsx';
+import gitCat from '../assets/github-mark-white.png';
 
 export default function Portfolio() {
 
@@ -48,13 +49,13 @@ export default function Portfolio() {
         link="https://c-dresser.github.io/weather-dashboard/"
       />
       <Project
-        imageUrl="https://c-dresser.github.io/express-note-taker/assets/images/express-note-taker.png"
+        imageUrl={gitCat}
         title="Express Note Taker"
         link="https://c-dresser.github.io/express-note-taker/"
       />
       <Project
-        imageUrl="https://c-dresser.github.io/sql-employee-tracker/assets/images/sql-employee-tracker.png"
-        title="SQL Employee Tracker"
+        imageUrl={gitCat}
+        title="Employee Tracker"
         link="https://github.com/C-Dresser/sql-employee-tracker/blob/main/README.md"
       />
       </div>
